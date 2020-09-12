@@ -11,4 +11,8 @@ class TestController extends Controller
         
         return view('front.index.index',[]);
     }
+    
+    public function add(Request $request){
+        
+    }
 }
